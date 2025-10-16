@@ -7,7 +7,7 @@ const PORT = MODE == "development" ? 4000 : 8000;
 const BASE_URL_FOR_API = `http://localhost:${PORT}`
 
 // db string
-const taskManagementInLocalMachine = "mongodb://localhost:27017/task_management";
+const taskManagementInLocalMachine = "mongodb+srv://ranarehman7676:rehman12345@cluster0.6cczjqn.mongodb.net/";
 
 const DB_STRING = taskManagementInLocalMachine;
 

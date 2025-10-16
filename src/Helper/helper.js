@@ -1,10 +1,7 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const ENV = require("./ENV/environment");
-const moment = require("moment");
-const momentTZ = require("moment-timezone");
 const DB = require("../dbConfig/schema/schema");
-const stripe = require('stripe')(ENV.STRIPE_SECRET_KEY);
 
 
 // hashing string / password
